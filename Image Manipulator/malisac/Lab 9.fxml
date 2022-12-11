@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="581.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="malisac.Lab9Controller">
+   <children>
+      <HBox alignment="TOP_RIGHT" prefHeight="450.0" prefWidth="577.0">
+         <children>
+            <ImageView fx:id="view" fitHeight="493.0" fitWidth="422.0" pickOnBounds="true" preserveRatio="true" />
+            <VBox alignment="TOP_CENTER" prefHeight="378.0" prefWidth="161.0" spacing="15.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#open" prefHeight="35.0" prefWidth="166.0" text="Open">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#save" prefHeight="35.0" prefWidth="166.0" text="Save">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#reload" prefHeight="35.0" prefWidth="165.0" text="Reload">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#grayscale" prefHeight="35.0" prefWidth="165.0" text="Grayscale">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#negative" prefHeight="35.0" prefWidth="164.0" text="Negative">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#red" prefHeight="35.0" prefWidth="166.0" text="Red">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#redGray" prefHeight="35.0" prefWidth="166.0" text="Red-gray">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="showFilter" mnemonicParsing="false" onAction="#showFilter" prefHeight="35.0" prefWidth="166.0" text="Show Filter">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

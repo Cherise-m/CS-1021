@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="187.0" prefWidth="405.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="malisac.Lab9Controller2">
+   <children>
+      <HBox prefHeight="60.0" prefWidth="405.0" spacing="8.0">
+         <children>
+            <TextField fx:id="field1" alignment="CENTER" prefHeight="35.0" prefWidth="95.0" />
+            <TextField fx:id="field2" alignment="CENTER" prefHeight="35.0" prefWidth="95.0" />
+            <TextField fx:id="field3" alignment="CENTER" prefHeight="35.0" prefWidth="95.0" />
+            <Button mnemonicParsing="false" onAction="#blur" prefHeight="36.0" prefWidth="87.0" text="Blur">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="62.0" prefWidth="405.0" spacing="8.0">
+         <children>
+            <TextField fx:id="field4" alignment="CENTER" prefHeight="35.0" prefWidth="95.0" />
+            <TextField fx:id="field5" alignment="CENTER" prefHeight="35.0" prefWidth="95.0" />
+            <TextField fx:id="field6" alignment="CENTER" prefHeight="35.0" prefWidth="95.0" />
+            <Button mnemonicParsing="false" onAction="#sharpen" prefHeight="36.0" prefWidth="87.0" text="Sharpen">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </HBox>
+      <HBox prefHeight="59.0" prefWidth="405.0" spacing="8.0">
+         <children>
+            <TextField fx:id="field7" alignment="CENTER" prefHeight="35.0" prefWidth="95.0" />
+            <TextField fx:id="field8" alignment="CENTER" prefHeight="35.0" prefWidth="95.0" />
+            <TextField fx:id="field9" alignment="CENTER" prefHeight="35.0" prefWidth="95.0" />
+         </children>
+         <padding>
+            <Insets top="5.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="57.0" prefWidth="405.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#apply" prefHeight="41.0" prefWidth="199.0" text="Apply">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
